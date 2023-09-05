@@ -19,19 +19,19 @@ print(x[0], y[0])
 
 
 
-# pointsX = list()
-# pointsY = list()
+# pointsX = []
+# pointsY = []
 
 # for _ in range(3):
 #     x, y = map(int, input().split())
 #     pointsX.append(x)
 #     pointsY.append(y)
 
-# def calcMin(a, b, c) :
+# def calcMinIndex(a, b, c) :
 #     c_list = list([a, b, c])
 #     return c_list.index(min(c_list))
 
-# resultX = calcMin(pointsX.count(pointsX[0]), pointsX.count(pointsX[1]), pointsX.count(pointsX[2]))    
-# resultY = calcMin(pointsY.count(pointsY[0]), pointsY.count(pointsY[1]), pointsY.count(pointsY[2]))    
+# xIndex = calcMinIndex(pointsX.count(pointsX[0]), pointsX.count(pointsX[1]), pointsX.count(pointsX[2]))    
+# yIndex = calcMinIndex(pointsY.count(pointsY[0]), pointsY.count(pointsY[1]), pointsY.count(pointsY[2]))    
 
-# print(pointsX[resultX], pointsY[resultY])
+# print(pointsX[xIndex], pointsY[yIndex])
